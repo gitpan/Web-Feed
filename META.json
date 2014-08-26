@@ -4,7 +4,7 @@
       "Gabor Szabo <szabgab@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.133380",
+   "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.142060",
    "license" : [
       "perl_5"
    ],
@@ -32,10 +32,18 @@
       },
       "runtime" : {
          "requires" : {
-            "Test::More" : "0"
+            "Test::More" : "0",
+            "perl" : "5.010"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.02"
+   "resources" : {
+      "repository" : {
+         "type" : "git",
+         "url" : "http://github.com/szabgab/Web-Feed.git",
+         "web" : "http://github.com/szabgab/Web-Feed"
+      }
+   },
+   "version" : "0.03"
 }
