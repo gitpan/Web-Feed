@@ -22,4 +22,4 @@ requires:
   perl: '5.010'
 resources:
   repository: http://github.com/szabgab/Web-Feed.git
-version: '0.03'
+version: '0.04'
